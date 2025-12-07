@@ -1,11 +1,13 @@
 ---
-name: Hello World
+name: Test
 on:
   - push
-permissions: read-all
+permissions:
+  contents: read
 
 jobs:
-  hello-world:
+  test-basic:
+    name: Test basic script execution
     strategy:
       fail-fast: false
       matrix:
@@ -14,10 +16,13 @@ jobs:
           - macos-latest
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Hello World
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
+        with:
+          persist-credentials: false
+      - name: Run basic Amber script
         uses: ./
         with:
+          amber-version: 0.4.0-alpha
           script: |
             const msg = "Hello World!"
             echo msg
