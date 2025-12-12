@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.0.4](https://github.com/lens0021/amber-script-action/compare/v2.0.3...v2.0.4) (2025-12-11)
+
+
+### Bug Fixes
+
+* Typo in action.yaml from 'distame' to 'name' ([#60](https://github.com/lens0021/amber-script-action/issues/60)) ([1094c5a](https://github.com/lens0021/amber-script-action/commit/1094c5ae6f4a3a3b745dc0b573e1b9b3c1756558))
+
+## [2.0.3](https://github.com/lens0021/amber-script-action/compare/v2.0.2...v2.0.3) (2025-12-11)
+
+
+### Bug Fixes
+
+* **internal:** Rename dest directory to dist ([#58](https://github.com/lens0021/amber-script-action/issues/58)) ([259c6fb](https://github.com/lens0021/amber-script-action/commit/259c6fb87831c5fe8cfca91a98e28c43a1824db1))
+
+## [2.0.2](https://github.com/lens0021/amber-script-action/compare/v2.0.1...v2.0.2) (2025-12-11)
+
+
+### Bug Fixes
+
+* Bundle compiled bash script ([#55](https://github.com/lens0021/amber-script-action/issues/55)) ([9461610](https://github.com/lens0021/amber-script-action/commit/9461610e10a8edf4a44384d3e3a82b6a580e257b))
+
 ## [2.0.1](https://github.com/lens0021/amber-script-action/compare/v2.0.0...v2.0.1) (2025-12-08)
 
 
