@@ -1,5 +1,59 @@
 # Changelog
 
+## [2.2.0](https://github.com/lens0021/amber-script-action/compare/v2.1.4...v2.2.0) (2025-12-20)
+
+
+### Features
+
+* Add output support via AMBER_SCRIPT_OUTPUT ([#90](https://github.com/lens0021/amber-script-action/issues/90)) ([d2bb361](https://github.com/lens0021/amber-script-action/commit/d2bb361384ae710486f2ee190dbbf73d733dc0af))
+
+## [2.1.4](https://github.com/lens0021/amber-script-action/compare/v2.1.3...v2.1.4) (2025-12-20)
+
+
+### Bug Fixes
+
+* Raise errors from the user script if any ([#88](https://github.com/lens0021/amber-script-action/issues/88)) ([ccc3b73](https://github.com/lens0021/amber-script-action/commit/ccc3b733955490ae2a5fbf059af109901b4191f5))
+
+## [2.1.3](https://github.com/lens0021/amber-script-action/compare/v2.1.2...v2.1.3) (2025-12-20)
+
+
+### Bug Fixes
+
+* **cache:** Use more detailed cache key to prevent conflict ([#83](https://github.com/lens0021/amber-script-action/issues/83)) ([99f3a18](https://github.com/lens0021/amber-script-action/commit/99f3a18fb86948ea07a79752a706a308a416640b))
+* skip setup-amber on cache hit ([#84](https://github.com/lens0021/amber-script-action/issues/84)) ([1d684c9](https://github.com/lens0021/amber-script-action/commit/1d684c996ea164ca498cd31e4f6d3333764a5d9b))
+
+
+### Reverts
+
+* "fix: Propagate script exit code correctly ([#81](https://github.com/lens0021/amber-script-action/issues/81))" ([#86](https://github.com/lens0021/amber-script-action/issues/86)) ([518b6d3](https://github.com/lens0021/amber-script-action/commit/518b6d3f58acdfc5e51b32815e19f7aca68c5fd6))
+
+## [2.1.2](https://github.com/lens0021/amber-script-action/compare/v2.1.1...v2.1.2) (2025-12-20)
+
+
+### Bug Fixes
+
+* Propagate script exit code correctly ([#81](https://github.com/lens0021/amber-script-action/issues/81)) ([bedaba2](https://github.com/lens0021/amber-script-action/commit/bedaba2bdd59a0474423d00d474c0d905d359855))
+
+## [2.1.1](https://github.com/lens0021/amber-script-action/compare/v2.1.0...v2.1.1) (2025-12-20)
+
+
+### Bug Fixes
+
+* **cache-path:** Fix the bug the action fails when cache-path input used ([#77](https://github.com/lens0021/amber-script-action/issues/77)) ([c53f7e6](https://github.com/lens0021/amber-script-action/commit/c53f7e67b9aa67ede1ae2ddd710682e3525986c2))
+
+## [2.1.0](https://github.com/lens0021/amber-script-action/compare/v2.0.4...v2.1.0) (2025-12-19)
+
+
+### Features
+
+* Improve caching strategy and use XDG-compliant paths ([#71](https://github.com/lens0021/amber-script-action/issues/71)) ([0a33b20](https://github.com/lens0021/amber-script-action/commit/0a33b204c46034582ccce529d12e4b6adc473db4))
+
+
+### Bug Fixes
+
+* Do not handle the failure of user-given script ([#73](https://github.com/lens0021/amber-script-action/issues/73)) ([f0ea6d6](https://github.com/lens0021/amber-script-action/commit/f0ea6d6ef370126b3257b3686954569b39a57c56))
+* Remove unused variable and update outdated documentation ([#75](https://github.com/lens0021/amber-script-action/issues/75)) ([269b719](https://github.com/lens0021/amber-script-action/commit/269b7199e5be41b692837604b87ad770cc704dcf))
+
 ## [2.0.4](https://github.com/lens0021/amber-script-action/compare/v2.0.3...v2.0.4) (2025-12-11)
 
 

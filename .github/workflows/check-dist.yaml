@@ -1,15 +1,11 @@
 ---
 name: Check dist
-
 on:
   pull_request:
   push:
     branches:
       - main
-
-permissions:
-  contents: read
-
+permissions: {}
 jobs:
   check-dist:
     runs-on: ubuntu-latest
@@ -24,7 +20,7 @@ jobs:
         with:
           amber-version: 0.5.1-alpha
 
-      - run: amber build src/main.ab dist/main.sh.new
+      - run: amber build src/main.ab dist/main.sh
 
       - name: Make sure there is no diff of dist/ directories
         run: |
